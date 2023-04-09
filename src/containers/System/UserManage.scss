@@ -1,0 +1,31 @@
+.custom-btn {
+  font-weight: 400;
+  height: 1.5rem;
+  width: 3rem;
+  font-size: 16px;
+}
+body {
+  background-color: white;
+}
+.container {
+  .btn-custom {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: 400;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+.btn-add-user-modal {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: small;
+  font-weight: 400;
+  &:hover {
+    opacity: 0.6;
+  }
+}
